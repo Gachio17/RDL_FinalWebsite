@@ -148,10 +148,8 @@ img {
     align-items: center;
 }
 
-.footer-logo {
-    display: block;
-    width: 235px;
-    margin-top: 90px;
+.inquiry {
+    align-items: center;
 }
 
 .copyright {
