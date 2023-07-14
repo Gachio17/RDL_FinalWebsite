@@ -63,6 +63,12 @@ img {
     font-family: 'Tsukimi Rounded', sans-serif;
 }
 
+.main-headline {
+    display: block;
+    margin-right: auto;
+    width: 700px;
+}
+
 @media (max-width: 800px) {
     .site-menu ul {
         display: block;
