@@ -1,73 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>研究開発リテラシー最終課題</title>
-        <meta name="description" content="ページの概要">
-        <meta name="viewport" content="width=device-width">
-        <script src="js/script.js"></script>
-        <link href="css/reserve.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@300&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!--header ここから-->
-        <header class="header">
-            <div class="header-inner">
-                <a class="header-logo" href="index.html">
-                    <img src="images/common/logo.png" alt="ロゴ">
-                </a>
-                <button class="toggle-menu-button"></button>
-                <div class="header-site-menu">
-                    <nav class="site-menu">
-                        <ul>
-                            <li><a href="index.html">top</a></li>
-                            <li><a href="detail.html">detail</a></li>
-                            <li><a href="menus.html">menus</a></li>
-                            <li><a href="access.html">access</a></li>
-                            <li><a href="reserve.html">reserve</a></li>
-                        </ul>
-                    </nav>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <title>研究開発リテラシー最終課題</title>
+    <meta name="description" content="ページの概要">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/script.js"></script>
+    <link href="css/reserve.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .reservation-button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .reservation-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .reservation-comment {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--header ここから-->
+    <header class="header">
+        <div class="header-inner">
+            <a class="header-logo" href="index.html">
+                <img src="images/common/logo.png" alt="ロゴ">
+            </a>
+            <button class="toggle-menu-button"></button>
+            <div class="header-site-menu">
+                <nav class="site-menu">
+                    <ul>
+                        <li><a href="index.html">top</a></li>
+                        <li><a href="detail.html">detail</a></li>
+                        <li><a href="menus.html">menus</a></li>
+                        <li><a href="access.html">access</a></li>
+                        <li><a href="reserve.html">reserve</a></li>
+                    </ul>
+                </nav>
             </div>
-        </header>
-        <!--header ここまで-->
+        </div>
+    </header>
+    <!--header ここまで-->
 
-        <!--main ここから-->
-        <main class="main">
+    <!--main ここから-->
+    <main class="main">
+        <div class="reservation-button-container">
+            <a class="reservation-button" href="https://docs.google.com/forms/your_form_url" target="_blank">予約する</a>
+        </div>
+        <p class="reservation-comment">ご予約を完了するには、<br>上記の「予約する」ボタンをクリックしてください。</p>
+    </main>
+    <!--main ここまで-->
 
-        </main>
-        <!--main ここまで-->
-
-        <!--footer ここから-->
-        <footer class="footer">
-            <nav class="site-menu">
-                <ul>
-                    <li><a href="index.html">top</a></li>
-                    <li><a href="detail.html">detail</a></li>
-                    <li><a href="menus.html">menus</a></li>
-                    <li><a href="access.html">access</a></li>
-                    <li><a href="reserve.html">reserve</a></li>
-                </ul>
-            </nav>
-            <div align="center">
-                <p>
-                    <font size="4" >
-                        <b>
-                            お問い合わせ
-                        </b>
-                    </font>
-                    <br><br>
-                    <font size="3" >000-0000-0000</font>
-                    <br>
-                    <font size="3" >xxx@yyy.zzz</font>
-                    <br>
-                    <font size="3" >対応時間<br>00:00〜23:59</font>
-                </p>
-            </div>
-            <p class="copyright"><small>&copy;研究開発リテラシー最終課題</small></p>
-        </footer>
-        <!--footer ここまで-->
-    </body>
+    <!--footer ここから-->
+    <footer class="footer">
+        <nav class="site-menu">
+            <ul>
+                <li><a href="index.html">top</a></li>
+                <li><a href="detail.html">detail</a></li>
+                <li><a href="menus.html">menus</a></li>
+                <li><a href="access.html">access</a></li>
+                <li><a href="reserve.html">reserve</a></li>
+            </ul>
+        </nav>
+        <div align="center">
+            <p>
+                <font size="4">
+                    <b>
+                        お問い合わせ
+                    </b>
+                </font>
+                <br><br>
+                <font size="3">000-0000-0000</font>
+                <br>
+                <font size="3">xxx@yyy.zzz</font>
+                <br>
+                <font size="3">対応時間<br>00:00〜23:59</font>
+            </p>
+        </div>
+        <p class="copyright"><small>&copy;研究開発リテラシー最終課題</small></p>
+    </footer>
+    <!--footer ここまで-->
+</body>
 </html>
