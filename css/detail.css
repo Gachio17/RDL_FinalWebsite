@@ -148,8 +148,35 @@ img {
     align-items: center;
 }
 
-.copyright {
-    font-size: 14px;
+/* 新しく追加するCSSコード */
+.detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.business-hours,
+.regular-holiday {
+    margin-top: 30px;
+}
+
+.business-hours h2,
+.regular-holiday h2 {
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 90px;
-}  
+    margin-bottom: 10px;
+}
+
+.business-hours ul,
+.regular-holiday p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.business-hours ul li,
+.regular-holiday p {
+    list-style: none;
+}
+
