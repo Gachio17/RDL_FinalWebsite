@@ -12,3 +12,47 @@
     height: 600px;
     margin-top: 25px;
 }
+
+.header {
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 800px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #f5f5f5;
+        height: 70px;
+        z-index: 10;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+        position: relative;
+    }
+
+    .header-logo {
+        width: 100px;
+    }
+
+    .header-site-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #000000;
+        background-color: #ffffff;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: none;
+    }
+
+    .header-site-menu.is-show {
+        display: block;
+    }
+}
